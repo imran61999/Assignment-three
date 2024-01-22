@@ -35,6 +35,42 @@
 
 <body class="font-manrope">
     <header class="mx-10 my-10">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl">Hockey’s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
         <div>
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
@@ -131,7 +167,7 @@
                 <p class="mx-auto text-center justify-center">Dit amet consectetur. Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
             </div>
-            <div>
+            <!-- <div>
                 <div class="grid gap-5 lg:grid-cols-2">
                     <div class="card w-50% image-full">
                         <figure><img src="Images/2.png" /></figure>
@@ -145,18 +181,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card w-50% bg-base-100 shadow-none image-full">
-                        <figure><img src="Images/3.png" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Junior Program</h2>
-                            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
-                                congue sed et in.</p>
-                            <div class="card-actions justify-start">
-                                <button class="btn btn-primary">Register Now!</button>
-                            </div>
+                    <div class="hero min-h-screen" style="background-image: url(Images/3.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                          <div class="max-w-md">
+                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                            <button class="btn btn-primary">Get Started</button>
+                          </div>
                         </div>
-                    </div>
+                      </div>
                     
                 </div>
                 <div>
@@ -173,7 +207,45 @@
                         </div>
                     </div>
                 </div>
+            </div> -->
+            <div class="flex gap-5 flex-col lg:flex-row">
+                <div class="hero min-h-80"
+                    style="background-image: url(Images/2.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-left text-neutral-content">
+                        <div class="max-w-md">
+                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                            <button class="btn btn-primary">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero min-h-80"
+                    style="background-image: url(Images/3.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-left text-neutral-content">
+                        <div class="max-w-md">
+                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                            <button class="btn btn-primary">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="hero min-h-80 mt-5"
+                    style="background-image: url(Images/4.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-left text-neutral-content">
+                        <div class="max-w-md">
+                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                            <button class="btn btn-primary">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
         </section>
     </main>
     <footer>
