@@ -1,0 +1,7 @@
+.circular-progress{
+    position: relative;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: conic-gradient(#FF4240 3.6deg, #E7E7E8 0deg,);
+}
